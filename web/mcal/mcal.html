@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link type="text/css" rel="stylesheet" href="mcal.css"></link>
+        
+</head>
+<body>
+    <div class="outer">
+    <div class="main">
+        <div class="screen">
+            
+        <h3 id="val">0</h3>
+        <P id="result">0</P>
+        </div>
+        <div class="main-btn">
+
+            
+            <button onclick="reset()" class="btns opr">c</button>
+            <button onclick="pressNum(this)" class="btns opr">&divide;</button>
+            <button onclick="pressNum(this)" class="btns opr">x</button>
+            <button onclick="bs()" class="btns opr">&#9003;</button>
+            <button onclick="pressNum(this)" class="btns">1</button>
+            <button onclick="pressNum(this)" class="btns">2</button>
+            <button onclick="pressNum(this)" class="btns">3</button>
+            <button onclick="pressNum(this)" class="btns opr">-</button>
+            <button onclick="pressNum(this)" class="btns">4</button>
+            <button onclick="pressNum(this)" class="btns">5</button>
+            <button onclick="pressNum(this)" class="btns">6</button>
+            <button onclick="pressNum(this)" onclick="check()" class="btns opr">+</button>
+            <button onclick="pressNum(this)" class="btns">7</button>
+            <button onclick="pressNum(this)" class="btns">8</button>
+            <button onclick="pressNum(this)" class="btns">9</button>
+            <button onclick="equal()" class="btns equal">=</button>
+            <button onclick="pressNum(this)" class="btns opr">%</button>
+            <button onclick="pressNum(this)" class="btns">0</button>
+            <button onclick="pressNum(this)" class="btns opr">.</button>
+        </div>
+    </div>
+</div>
+    <script src="mcal.js"></script>
+</body>
+</html>

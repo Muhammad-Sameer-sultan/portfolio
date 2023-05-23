@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: rgba(187, 189, 189, 0.5) */
+    background: #000;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    /* box-shadow: 0 0 2rem #f5f5f5; */
+    margin: 80px 0px;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    width: 280px;
+    height: 500px;
+    padding: 30px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.main-btn{
+    width: 100%;
+    /* background-color: aqua; */
+    display: inline-grid;
+    /* grid-template-rows: 1fr,1fr,1fr; */
+    grid-template-columns   : auto auto auto auto;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+    /* padding: 10px 10px; */
+    height: 75%;
+
+}
+.screen{
+    height: 25%;
+    /* border: 2px solid black; */
+    /* background-color: rgba(216, 219, 228, 0.5); */
+    /* display: flex; */
+    text-align: right;
+    font-size: 20px;
+    /* width:100%; */
+    /* justify-content: space-between; */
+    /* padding: 10px 9px; */
+    border-radius: 5px;
+}
+.screen > p{
+    padding: 40px 0px;
+    /* background-color: red; */
+}
+
+.btns{
+    width: 60px;    
+    height: 60px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    transition: 0.5s;
+    
+}
+.btns:hover{
+    background-color: rgba(216, 219, 228, 0.5);
+    color: #333;
+    /* background-color:red; */
+}
+.btns:active{
+    background-color: #333;
+    color: #f5f5f5;
+}
+.equal{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    grid-area: 4 / 4 /6/5;
+    height: 120px;
+    transition: transform 2s;
+}
+.equal:hover{
+    background-color: rgba(255, 123, 0, 0.884);
+
+}
+#result{
+    transition: all 1s ease-in-out;
+}
+/* .equal:active{
+    #result{
+        transform: translate: (50px,100px);
+    }
+} */
+.opr{
+    color: blue;
+}
